@@ -9,7 +9,7 @@
 #define SPI_FLASH_SCK_PIN           &pin_PB11
 #define SPI_FLASH_CS_PIN            &pin_PA18
 
-#define MICROPY_PORT_A        (0)
+#define MICROPY_PORT_A        (PORT_PA06)
 #define MICROPY_PORT_B        (0)
 #define MICROPY_PORT_C        (0)
 
