@@ -4,6 +4,11 @@
 #define MICROPY_HW_BOARD_NAME "Adafruit Feather M0 Basic"
 #define MICROPY_HW_MCU_NAME "samd21g18"
 
+#define SPI_FLASH_MOSI_PIN          &pin_PB10
+#define SPI_FLASH_MISO_PIN          &pin_PA12
+#define SPI_FLASH_SCK_PIN           &pin_PB11
+#define SPI_FLASH_CS_PIN            &pin_PA18
+
 #define MICROPY_PORT_A        (0)
 #define MICROPY_PORT_B        (0)
 #define MICROPY_PORT_C        (0)
